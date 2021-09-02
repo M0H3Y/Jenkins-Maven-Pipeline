@@ -1,0 +1,7 @@
+version: '3.0'
+services:
+     app:        
+      image: maven-app:$BUILD_TAG
+      build: .
+      container_name: java-app
+
